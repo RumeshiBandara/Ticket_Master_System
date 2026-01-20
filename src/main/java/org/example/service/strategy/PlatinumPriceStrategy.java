@@ -1,4 +1,13 @@
 package org.example.service.strategy;
 
-public class PlatinumPriceStrategy {
+import org.example.model.entity.Event;
+import org.example.model.entity.User;
+import org.springframework.stereotype.Component;
+
+@Component
+public class PlatinumPriceStrategy implements PriceStrategy{
+    @Override
+    public double calculate(User user, Event event) {
+        return event.getBasePrice();
+    }
 }
