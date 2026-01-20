@@ -2,7 +2,6 @@ package org.example.model.entity;
 
 import jakarta.persistence.*;
 import lombok.Data;
-import org.example.model.enums.UserTier;
 
 @Entity
 @Table(name = "users")

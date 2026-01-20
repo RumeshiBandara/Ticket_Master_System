@@ -1,4 +1,7 @@
 package org.example.model.enums;
 
-public class SeatStatus {
+public enum SeatStatus {
+    AVAILABLE,
+    HELD,
+    SOLD
 }

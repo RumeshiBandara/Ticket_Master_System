@@ -1,4 +1,7 @@
 package org.example.model.enums;
 
-public class UserTier {
+public enum UserTier {
+    REGULAR,
+    VIP,
+    PLATINUM
 }
